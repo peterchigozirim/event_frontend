@@ -1,6 +1,6 @@
 // API Configuration
-const API_BASE_URL = "http://localhost:3000/api/v1";
-const PAYSTACK_PUBLIC_KEY = "pk_test_your_key_here"; // Replace with your Paystack public key
+const API_BASE_URL = "https://eventful-api-hdf6.onrender.com//api/v1";
+const PAYSTACK_PUBLIC_KEY = "pk_test_d8ed62b811fd4ca9d917bf28e8cab734b2be9361"; // Replace with your Paystack public key
 
 // API Endpoints
 const API_ENDPOINTS = {
@@ -16,6 +16,7 @@ const API_ENDPOINTS = {
 	// Tickets
 	tickets: `${API_BASE_URL}/tickets`,
 	myTickets: `${API_BASE_URL}/tickets/my-tickets`,
+	eventTickets: (eventId) => `${API_BASE_URL}/tickets/event/${eventId}`,
 	scanTicket: `${API_BASE_URL}/tickets/scan`,
 
 	// Payments
