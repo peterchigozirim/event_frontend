@@ -1,5 +1,5 @@
 // API Configuration
-const API_BASE_URL = "https://eventful-api-hdf6.onrender.com//api/v1";
+const API_BASE_URL = "https://eventful-api-hdf6.onrender.com/api/v1";
 const PAYSTACK_PUBLIC_KEY = "pk_test_d8ed62b811fd4ca9d917bf28e8cab734b2be9361"; // Replace with your Paystack public key
 
 // API Endpoints
