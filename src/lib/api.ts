@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const API_URL =
-	process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000/api/v1";
+	process.env.NEXT_PUBLIC_API_URL ||
+	"https://eventful-api-hdf6.onrender.com/api/v1";
 
 const api = axios.create({
 	baseURL: API_URL,
